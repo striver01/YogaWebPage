@@ -941,7 +941,7 @@ nav{
         font-size: 15px;
     }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:760px){
     /* adding media queries to header part to make it responsive */
     .logo{
         margin-left: 3%;
