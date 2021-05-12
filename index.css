@@ -1086,6 +1086,7 @@ nav{
     }
     .chapter{
         height: 600px;
+        margin-bottom: 30px;
     }
     .courses h1{
         font-size: 25px;
@@ -1104,6 +1105,7 @@ nav{
     }
     .chapter{
         height: 630px;
+        margin-bottom: 30px;
     }
     .content .stats1 i{
         left: 10%;
