@@ -941,7 +941,65 @@ nav{
         font-size: 15px;
     }
 }
-@media screen and (max-width:760px){
+@media screen and (max-width: 765px){
+     .content .stats1 i{
+        left: 13%;
+        font-size: 35px;
+        top: 190px;
+    }
+    .content .stats1 h1{
+        left: 22%;
+        top: 180px;
+    }
+    .content .stats1 p{
+        font-size: 20px;
+        left: 22%;
+        top: 210px;
+    }
+    .content .stats2 i{
+        left: 45%;
+        top: 190px;
+    }
+    .content .stats2 h1{
+        left: 54%;
+        top: 180px;
+    }
+    .content .stats2 p{
+        left: 54%;
+        top: 210px;
+        font-size: 20px;
+    }
+    .content .stats3 i{
+        left: 13%;
+        top: 290px;
+    }
+    .content .stats3 h1{
+        left: 23%;
+        top: 280px;
+    }
+    .content .stats3 p{
+        left: 23%;
+        top: 310px;
+        font-size: 20px;
+    }
+    .content .stats4 i{
+        left: 45%;
+        top: 290px;
+    }
+    .content .stats4 h1{
+        left: 54%;
+        top: 280px;
+    }
+    .content .stats4 p{
+        left: 54%;
+        top: 310px;
+        font-size: 20px;
+    }
+    .courses{
+        margin-top: 790px;
+    }
+}
+@media screen and (max-width:750px){
     /* adding media queries to header part to make it responsive */
     .logo{
         margin-left: 3%;
