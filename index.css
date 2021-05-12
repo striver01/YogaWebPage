@@ -1226,11 +1226,11 @@ nav{
     }
     .courses h1{
         font-size: 20px;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
     .courses p{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
     .chapter{
@@ -1238,11 +1238,11 @@ nav{
     }
     .Gallery h1{
         font-size: 20px;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
     .Gallery p{
-        width: 70%;
+        width: 100%;
         text-align: center;
     }
 }
