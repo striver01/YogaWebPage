@@ -941,65 +941,7 @@ nav{
         font-size: 15px;
     }
 }
-@media screen and (max-width: 765px){
-     .content .stats1 i{
-        left: 13%;
-        font-size: 35px;
-        top: 190px;
-    }
-    .content .stats1 h1{
-        left: 22%;
-        top: 180px;
-    }
-    .content .stats1 p{
-        font-size: 20px;
-        left: 22%;
-        top: 210px;
-    }
-    .content .stats2 i{
-        left: 45%;
-        top: 190px;
-    }
-    .content .stats2 h1{
-        left: 54%;
-        top: 180px;
-    }
-    .content .stats2 p{
-        left: 54%;
-        top: 210px;
-        font-size: 20px;
-    }
-    .content .stats3 i{
-        left: 13%;
-        top: 290px;
-    }
-    .content .stats3 h1{
-        left: 23%;
-        top: 280px;
-    }
-    .content .stats3 p{
-        left: 23%;
-        top: 310px;
-        font-size: 20px;
-    }
-    .content .stats4 i{
-        left: 45%;
-        top: 290px;
-    }
-    .content .stats4 h1{
-        left: 54%;
-        top: 280px;
-    }
-    .content .stats4 p{
-        left: 54%;
-        top: 310px;
-        font-size: 20px;
-    }
-    .courses{
-        margin-top: 790px;
-    }
-}
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     /* adding media queries to header part to make it responsive */
     .logo{
         margin-left: 3%;
@@ -1027,16 +969,23 @@ nav{
         font-weight: 200;
     }
     /* adding media queries to choosing part to make it responsive */
+    .choose{
+        margin-top: 20px;
+    }
     .content h1{
         left: 20%;
         font-size: 35px;
     }
     .content p{
-        width: 95%;
+        width: 90%;
         font-size: 16px;
         top: 60px;
         left: 20px;
         right: 0;
+    }
+    .choose img{
+        width: 50%;
+        left: 0;
     }
     .content .stats1 i{
         left: 13%;
@@ -1227,6 +1176,14 @@ nav{
         height: 630px;
         margin-bottom: 30px;
     }
+    .content p{
+        width: 80%;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .choose img{
+        width: 80%;
+    }
     .content .stats1 i{
         left: 10%;
     }
@@ -1235,17 +1192,17 @@ nav{
     }
     .content .stats1 p{
         left: 20%;
-        font-size: 15px;
+        font-size: 10px;
     }
     .content .stats2 i{
-        left: 45%;
+        left: 42%;
     }
     .content .stats2 h1{
-        left: 55%;
+        left: 53%;
     }
     .content .stats2 p{
-        left: 55%;
-        font-size: 15px;
+        left: 53%;
+        font-size: 9px;
     }
     .content .stats3 i{
         left: 8%;
@@ -1255,16 +1212,37 @@ nav{
     }
     .content .stats3 p{
         left: 20%;
-        font-size: 15px;
+        font-size: 10px;
     }
     .content .stats4 i{
-        left: 45%;
+        left: 42%;
     }
     .content .stats4 h1{
-        left: 58%;
+        left: 55%;
     }
     .content .stats4 p{
-        left: 58%;
-        font-size: 15px;
+        left: 55%;
+        font-size: 9px;
+    }
+    .courses h1{
+        font-size: 20px;
+        width: 90%;
+        text-align: center;
+    }
+    .courses p{
+        width: 80%;
+        text-align: center;
+    }
+    .chapter{
+        left: 0;
+    }
+    .Gallery h1{
+        font-size: 20px;
+        width: 90%;
+        text-align: center;
+    }
+    .Gallery p{
+        width: 70%;
+        text-align: center;
     }
 }
