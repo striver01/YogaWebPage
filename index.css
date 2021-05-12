@@ -1,0 +1,1148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* add background color of whole page */
+body{
+    background-color: rgb(204, 200, 200);
+}
+/*header*/
+.header{
+    display: flex;
+}
+/* editing logo to  header */
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-left: 10%;
+}
+/* editing company name on header */
+.header h1{
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color:rgb(10, 31, 100);
+}
+/* applying affect to company name on hovering */
+.header h1:hover{
+    color:rgb(165, 191, 238);
+}
+/* editing mid content to header */
+.header p{
+    font-size: small;
+    padding-left: 80px;
+    margin-top: 40px;
+    padding-right: 100px;
+}
+/* editing button on header */
+.header button{
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(74, 74, 184);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+.header button:hover{
+    border: 3px solid black;
+    background-color: rgb(165, 191, 238);
+}
+/* responsive nav  */
+.nav-bar a{
+    color: rgb(20, 20, 107);
+    font-size: 50px;
+    margin-left: 5%;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    text-decoration: none;
+}
+.nav-bar #links a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+}
+.nav-bar #links a:hover{
+    background-color: green;
+    color: white;
+}
+.nav-bar #links a img{
+    width: 25px;
+    height: 25px;
+}
+.nav-bar #links a img:hover{
+    width: 30px;
+    height: 30px;
+}
+.nav-bar #links a button{
+    padding: 5px 50px;
+    font-size: 20px;
+    color: rgb(20, 20, 107);
+    cursor: pointer;
+}
+.nav-bar #links a button:hover{
+    background-color: rgb(20, 20, 107);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.nav-bar{
+    position: relative;
+}
+.nav-bar #links{
+    display: none;
+    background-color: rgb(100, 100, 233);
+}
+.nav-bar a.icons{
+    position: absolute;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: black;
+    right: 1%;
+    top: 0;
+}
+.icons i:hover{
+    color: green;
+    font-size: 30px;
+}
+.nav-bar{
+    display: none;
+}
+nav{
+    display: none;
+}
+/* applying button on header on hovering */
+.banner{
+    background-image: url("yoga1.jpg");
+    background-size: 100% 100%;
+    margin-top: 5px;
+    height: 100vh;
+    width: 100%;
+}
+.head{
+    display: flex;
+}
+.info{
+    display: flex;
+    margin-top: 20px;
+}
+.info li{
+    list-style-type: none;
+    padding-left: 10%;
+}
+.info li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.info li a:hover{
+    border-bottom: 2px solid white;
+}
+.extended{
+    position: absolute;
+    background-color: rgb(183, 218, 247);
+    margin-top: 10px;
+    width: 200px;
+    line-height: 1cm; 
+    display: none;
+}
+.info li a:hover + .extended{
+    display: block;
+}
+.extended:hover{
+    display: block;
+}
+.extended li:hover{
+    background-color: rgb(98, 132, 247);
+    cursor: pointer;
+}
+.socialicons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.socialicons li{
+    list-style-type: none;
+}
+.socialicons li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.socialicons img{
+    width: 20px;
+    height: 20px;
+}
+.socialicons img:hover{
+    width: 25px;
+    height: 25px;
+}
+.mid-content h2{
+    font-size: 40px;
+    margin-top: 125px;
+    margin-left: 15%;
+    opacity: 0.6;
+    color: white;
+}
+.mid-content .direction{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.direction h1{
+    font-size: 55px;
+    color: white;
+    opacity: 0.8;
+}
+.dir1{
+    background-color: white;
+    opacity: 0.6;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    margin-right: 5%;
+}
+.dir2{
+    background-color: white;
+    opacity: 0.6;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+}
+.dir1:hover{
+    opacity: 1.0;
+    width: 30px;
+    height: 30px;
+    transition: 2s;
+}
+.dir2:hover{
+    opacity: 1.0;
+    width: 30px;
+    height: 30px;
+    transition: 2s;
+}
+.ban-content button{
+    color: azure;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(60, 66, 126);
+}
+.ban-content button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+/* editing welcome section */
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.welcome .image{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.image .verti img{
+    width: 100%;
+    height: 600px;
+}
+.hori{
+    display: flex;
+    flex-direction: column;
+}
+.hori img{
+    width: 90%;
+}
+#hori1{
+    height: 220px;
+    padding-left: 5%;
+}
+#hori2{
+    padding-top: 30px;
+    padding-left: 5%;
+    height: 380px;
+}
+.matter{
+    width: 60%;
+    margin-right: 10%;
+}
+.matter i{
+    font-size: 50px;
+    color: rgb(10, 31, 100);
+}
+.matter h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+    font-size: 45px;
+    font-weight: 100;
+    color: rgb(10, 31, 100);
+}
+.matter p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+.matter button{
+    padding: 2%;
+    font-size: 20px;
+    background-color: rgb(10, 31, 100);
+    color: whitesmoke;
+}
+/* editing aspects of web page */
+/* logo at top of aspects heading */
+.aspects .logo1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(74, 74, 184);
+}
+/* editing heading of aspects  */
+.aspects h1{
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+/* editing cards under aspects  */
+.cards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+/* editing of each card */
+.card{
+    font-family:'Times New Roman', Times, serif;
+    width: 15%;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;   
+    margin-bottom: 30px;
+    background-color: white;
+}
+/* editing of image in card  */
+.card img{
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid maroon;
+}
+/* effect on image in the card on hovering */
+.card img:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+}
+/* card name adjustment */
+.card h1{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* card content adjustment */
+.card p{
+    color: darkgrey;
+    margin-top: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* editing choosing part of the site */
+.choose{
+    position: relative;
+    margin-top: 40px;
+}
+/* editing content div  */
+.content{
+    position: relative;
+}
+/* editing the heading of the choosing part  */
+.content h1{
+    font-weight: 200;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    left: 10%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* editing the para content of the choosing part */
+.content p{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    left: 10%;
+    right: 50%;
+    top: 100px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* editing image on the choosing part  */
+.choose img{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    right: 5%;
+}
+/* editing students stats on the choosing part  */
+.content .stats1 i{
+    position: absolute;
+    left: 10%;
+    top: 230px;
+    font-size: 35px;
+    color: rgb(226, 175, 226);
+}
+/* editing students stats on the choosing part */
+.content .stats1 h1{
+    position: absolute;
+    left: 13%;
+    top: 220px;
+    color: rgb(163, 155, 155);
+}
+/* editing students stats on the choosing part */
+.content .stats1 p{
+    position: absolute;
+    left: 13%;
+    top: 265px;
+    color: rgb(163, 155, 155);
+}
+/* editing years of experience stats on the choosing part */
+.content .stats2 i{
+    position: absolute;
+    left: 25%;
+    top: 230px;
+    font-size: 35px;
+    color: rgb(226, 175, 226);
+}
+/* editing years of experience stats on the choosing part  */
+.content .stats2 h1{
+    position: absolute;
+    left: 28%;
+    top: 220px;
+    color: rgb(163, 155, 155);
+}
+/* editing years of experience stats on the choosing part  */
+.content .stats2 p{
+    position: absolute;
+    left: 28%;
+    top: 265px;
+    color: rgb(163, 155, 155);
+}
+/* editing branches stats on the choosing part  */
+.content .stats3 i{
+    position: absolute;
+    left: 10%;
+    top: 320px;
+    font-size: 35px;
+    color: rgb(226, 175, 226);
+}
+/* editing branches stats on the choosing part  */
+.content .stats3 h1{
+    position: absolute;
+    left: 13%;
+    top: 310px;
+    color: rgb(163, 155, 155);
+}
+/* editing branches stats on the choosing part  */
+.content .stats3 p{
+    position: absolute;
+    left: 13%;
+    top: 355px;
+    color: rgb(163, 155, 155);
+}
+/* editing expert staff stats on the choosing part  */
+.content .stats4 i{
+    position: absolute;
+    left: 25%;
+    top: 320px;
+    font-size: 35px;
+    color: rgb(226, 175, 226);
+}
+/* editing expert staff stats on the choosing part  */
+.content .stats4 h1{
+    position: absolute;
+    left: 28%;
+    top: 310px;
+    color: rgb(163, 155, 155);
+}
+/* editing expert staff stats on the choosing part  */
+.content .stats4 p{
+    position: absolute;
+    left: 28%;
+    top: 355px;
+    color: rgb(163, 155, 155);
+}
+/*  editing upcoming courses part  */
+.courses{
+    margin-top: 500px;
+    position: relative;
+}
+/* editing upcoming courses heading  */
+.courses h1{
+    font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+/* editing para content under upcoming courses  */
+.courses p{
+    margin-top: 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* applying effects on the chapters */
+.course{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* adjusting the structure of cards under upcoming courses  */
+.chapter{
+    border-radius: 10px;
+    width: 25%;
+    height: 550px;
+    background-color: white;
+}
+/* adjusting the image in cards under upcoming courses  */
+.chapter img{
+    width: 100%;
+    height: 300px;
+}
+/* adjusting the heading in cards under upcoming courses  */
+.chapter h4{
+    margin-top: 15px;
+    color: grey;
+    padding-left: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* adjusting the content of cards under upcoming courses  */
+.chapter h2{
+    margin-top: 10px;
+    color: rgb(60, 66, 126);
+    font-size: 25px;
+    padding-left: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.chapter button{
+    margin-top: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: rgb(60, 66, 126);
+}
+.chapter button:hover{
+    color: white;
+    background-color: rgb(60, 66, 126);
+}
+/* editing Our Gallery section  */
+/* editing heading of gallery section  */
+.Gallery h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+/* editing para content of gallery section  */
+.Gallery p{
+    margin-top: 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* adjusting pictures of gallery section  */
+.pic{
+    display: flex;
+    margin-top: 20px;
+}
+/* aditing pictures of gallery section  */
+.pic img{
+    width: 25%;
+    height: 250px;
+}
+/* editing Meet our Instructor section  */
+.instructor h1{
+    font-weight: 200;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.instructor p{
+    margin-top: 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+}
+.photo{
+    width: 18%;
+}
+.photo h3{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 200;
+}
+.photo p{
+    text-align: center;
+    font-weight: 150;
+    color: gray;
+}
+.photos img{
+    width: 100%;
+    height: 200px;
+    
+}
+/* editing appointment section  */
+.appointment{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(60, 66, 126);
+    margin-top: 40px;
+}
+.appointment h1,.logo1{
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.appointment .logo1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.appointment h1{
+    margin-top: 50px;
+    font-size: 30px;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.row input{
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    height: 10px;
+    font-size: 20px;
+    background-color: rgb(173, 173, 236);
+}
+::placeholder{
+    color: white;
+    opacity: 1.0;
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+.message input{
+    font-size: 20px;
+    margin-top: 40px;
+    width: 90%;
+    height: 100px;
+    padding-left: 10px;
+    background-color: rgb(173, 173, 236);
+}
+.appointment button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 10px 5% 10px 5%;
+    color: rgb(74, 74, 184);
+}
+.appointment button:hover{
+    background-color: rgb(74, 74, 184);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(2, 25, 68);
+}
+.footer .logo1{
+    color: rgb(165, 191, 238);
+    font-size: 80px;
+    padding: 40px;
+}
+.parts{
+    display: flex;
+}
+.part{
+    width: 25%;
+}
+.part ul li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 1cm;
+    text-align: center;
+    color: rgb(165, 191, 238);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.footer h2{
+    padding-bottom: 30px;
+    color: rgb(165, 191, 238);
+    text-align: center;
+}
+.footer h2 i{
+    color: red;
+}
+@media screen and (max-width:1300px) {
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome .matter{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:1200px) {
+    /* adding media queries to header to make it responsive */
+    .header{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    .nav-bar{
+        display: block;
+    }
+    /* adding media queries to banner section to make it responsive */
+    .head{
+        display: none;
+    }
+    .mid-content h2{
+        margin-top: 20px;
+        padding-top: 125px;
+    }
+    /* adding media queries to aspects to make it responsive */
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 30%;
+    }
+    .card img:hover{
+        box-shadow: 3px 3px black;
+    }
+    /* adding media queries to choosing part to make it responsive */
+    .content h1{
+        text-align: center;
+    }
+    .content p{
+        top: 60px;
+    }
+    .content .stats1 i{
+        left: 10%;
+        font-size: 35px;
+        top: 270px;
+    }
+    .content .stats1 h1{
+        left: 15%;
+        top: 260px;
+    }
+    .content .stats1 p{
+        font-size: 15px;
+        left: 15%;
+        top: 300px;
+    }
+    .content .stats2 i{
+        left: 35%;
+        top: 270px;
+    }
+    .content .stats2 h1{
+        left: 40%;
+        top: 260px;
+    }
+    .content .stats2 p{
+        left: 40%;
+        top: 300px;
+        font-size: 15px;
+    }
+    .content .stats3 i{
+        left: 9%;
+        top: 370px;
+    }
+    .content .stats3 h1{
+        left: 15%;
+        top: 360px;
+    }
+    .content .stats3 p{
+        left: 15%;
+        top: 400px;
+        font-size: 15px;
+    }
+    .content .stats4 i{
+        left: 34%;
+        top: 370px;
+    }
+    .content .stats4 h1{
+        left: 40%;
+        top: 360px;
+    }
+    .content .stats4 p{
+        left: 40%;
+        top: 400px;
+        font-size: 15px;
+    }
+    /* adding media queries to make upcoming courses responsive */
+    .course{
+        flex-wrap: wrap;
+    }
+    .chapter{
+        width: 40%;
+        height: 520px;
+        margin-top: 30px;
+    }
+    /* adding media queries to make Our Gallery responsive */
+    .pic{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .pic img{
+        width: 50%;
+    }
+    /* adding media queries to make Meet Our Instructor section responsive */
+    .photos{
+        flex-wrap: wrap;
+    }
+    .photo{
+        width: 35%;
+    }
+    .photo img{
+        height: 250px;
+    }
+    /* adding media queries to make Appointment section responsive */
+    .row{
+        flex-direction: column;
+    }
+    .row input{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .appointment button{
+        border-radius: 3px;
+        background-color: whitesmoke;
+        font-weight: 700;
+        color: rgb(112, 112, 240);
+        margin-left: 36%;
+    }
+    /* adding media queries to make Footer section responsive */
+    .footer .logo1{
+        font-size: 70px;
+    }
+    .parts{
+        flex-wrap: wrap;
+    }
+    .part{
+        margin-top: 20px;
+        width: 50%;
+    }
+    .part ul li h3{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .part ul li{
+        font-size: 15px;
+        line-height: 1.40cm;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        padding-left: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:750px){
+    /* adding media queries to header part to make it responsive */
+    .logo{
+        margin-left: 3%;
+    }
+    .header p{
+        display: none;
+    }
+    .header h1{
+        font-size: 45px;
+        padding-left: 0;
+    }
+    .header button{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    /* adding media queries to aspects part to make it responsive */
+    .aspects h1{
+        font-size: 35px;
+    }
+    .card{
+        width: 80%;
+    }
+    .card p{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    /* adding media queries to choosing part to make it responsive */
+    .content h1{
+        left: 20%;
+        font-size: 35px;
+    }
+    .content p{
+        width: 95%;
+        font-size: 16px;
+        top: 60px;
+        left: 20px;
+        right: 0;
+    }
+    .content .stats1 i{
+        left: 13%;
+        font-size: 35px;
+        top: 170px;
+    }
+    .content .stats1 h1{
+        left: 22%;
+        top: 165px;
+    }
+    .content .stats1 p{
+        font-size: 20px;
+        left: 22%;
+        top: 200px;
+    }
+    .content .stats2 i{
+        left: 45%;
+        top: 170px;
+    }
+    .content .stats2 h1{
+        left: 54%;
+        top: 165px;
+    }
+    .content .stats2 p{
+        left: 54%;
+        top: 200px;
+        font-size: 20px;
+    }
+    .content .stats3 i{
+        left: 13%;
+        top: 260px;
+    }
+    .content .stats3 h1{
+        left: 23%;
+        top: 250px;
+    }
+    .content .stats3 p{
+        left: 23%;
+        top: 290px;
+        font-size: 20px;
+    }
+    .content .stats4 i{
+        left: 45%;
+        top: 260px;
+    }
+    .content .stats4 h1{
+        left: 54%;
+        top: 250px;
+    }
+    .content .stats4 p{
+        left: 54%;
+        top: 290px;
+        font-size: 20px;
+    }
+    .choose img{
+        width: 90%;
+        height: 300px;
+        left: 5%;
+        right: 5%;
+        top: 350px;
+    }
+    /* adding media queries to make upcoming courses responsive */
+    .courses{
+        margin-top: 750px;
+    }
+    .courses h1{
+        font-size: 35px;
+    }
+    .courses p{
+        font-weight: 200;
+        text-align: center;
+    }
+    .course{
+        flex-wrap: wrap;
+    }
+    .chapter{
+        width: 70%;
+        height: 550px;
+        margin-top: 30px;
+    }
+    /* adding media queries to make Our Gallery responsive */
+    .Gallery h1{
+        font-size: 35px;
+    }
+    .Gallery p{
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+    .pic{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .pic img{
+        width: 50%;
+    }
+    /* adding media queries to make Meet Our Instructor section responsive */
+    .instructor h1{
+        font-size: 35px;
+    }
+    .instructor p{
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+    .photos{
+        flex-direction: column;
+    }
+    .photo{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .photos img{
+        width: 100%;
+        height: 300px;
+        
+    }
+    /* adding media queries to make Appointment section responsive */
+    .row{
+        flex-direction: column;
+    }
+    .row input{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .appointment button{
+        border-radius: 3px;
+        background-color: whitesmoke;
+        font-weight: 700;
+        color: rgb(112, 112, 240);
+        margin-left: 36%;
+    }
+    /* adding media queries to make Footer section responsive */
+    .footer .logo1{
+        font-size: 50px;
+    }
+    .parts{
+        flex-wrap: wrap;
+    }
+    .part{
+        width: 100%;
+    }
+    .part ul li h3{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .part ul li{
+        font-size: 15px;
+        line-height: 1.40cm;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        padding-left: 30px;
+        text-align: start;
+    }
+}
+@media screen and (max-width:500px){
+    .aspects h1{
+        font-size: 25px;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .chapter{
+        height: 600px;
+    }
+    .courses h1{
+        font-size: 25px;
+    }
+    .Gallery h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:380px){
+    .mid-content h2{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .direction h1{
+        font-size: 40px;
+    }
+    .chapter{
+        height: 580px;
+    }
+    .content .stats1 i{
+        left: 10%;
+    }
+    .content .stats1 h1{
+        left: 20%;
+    }
+    .content .stats1 p{
+        left: 20%;
+        font-size: 15px;
+    }
+    .content .stats2 i{
+        left: 45%;
+    }
+    .content .stats2 h1{
+        left: 55%;
+    }
+    .content .stats2 p{
+        left: 55%;
+        font-size: 15px;
+    }
+    .content .stats3 i{
+        left: 8%;
+    }
+    .content .stats3 h1{
+        left: 20%;
+    }
+    .content .stats3 p{
+        left: 20%;
+        font-size: 15px;
+    }
+    .content .stats4 i{
+        left: 45%;
+    }
+    .content .stats4 h1{
+        left: 58%;
+    }
+    .content .stats4 p{
+        left: 58%;
+        font-size: 15px;
+    }
+}
