@@ -1074,7 +1074,7 @@ nav{
         text-align: start;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
     .aspects h1{
         font-size: 25px;
     }
