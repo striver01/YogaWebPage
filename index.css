@@ -821,7 +821,7 @@ nav{
     }
     .chapter{
         width: 40%;
-        height: 555px;
+        height: 600px;
         margin-top: 30px;
     }
     /* adding media queries to make Our Gallery responsive */
@@ -880,6 +880,65 @@ nav{
         letter-spacing: 1px;
         padding-left: 30px;
         text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .chapter{
+        height: 600px;
+        margin-top: 30px;
+    }
+    .content .stats1 i{
+        left: 10%;
+        font-size: 35px;
+        top: 300px;
+    }
+    .content .stats1 h1{
+        left: 15%;
+        top: 290px;
+    }
+    .content .stats1 p{
+        font-size: 15px;
+        left: 15%;
+        top: 330px;
+    }
+    .content .stats2 i{
+        left: 35%;
+        top: 300px;
+    }
+    .content .stats2 h1{
+        left: 40%;
+        top: 290px;
+    }
+    .content .stats2 p{
+        left: 40%;
+        top: 320px;
+        font-size: 15px;
+    }
+    .content .stats3 i{
+        left: 9%;
+        top: 400px;
+    }
+    .content .stats3 h1{
+        left: 15%;
+        top: 380px;
+    }
+    .content .stats3 p{
+        left: 15%;
+        top: 430px;
+        font-size: 15px;
+    }
+    .content .stats4 i{
+        left: 34%;
+        top: 390px;
+    }
+    .content .stats4 h1{
+        left: 40%;
+        top: 380px;
+    }
+    .content .stats4 p{
+        left: 40%;
+        top: 430px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width:750px){
@@ -1096,6 +1155,9 @@ nav{
     }
 }
 @media screen and (max-width:380px){
+    .aspects h1{
+        font-size: 20px;
+    }
     .mid-content h2{
         font-size: 30px;
         padding-top: 40px;
